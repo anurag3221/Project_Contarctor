@@ -1,0 +1,11 @@
+.imghome{
+    width: 60vw;
+
+}
+.imgcl{
+    width: 60.2vw;
+    /* border: solid black 2px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5vh;
+}

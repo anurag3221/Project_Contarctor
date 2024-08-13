@@ -1,0 +1,53 @@
+.inpdivcp{
+    /* border: solid black 2px; */
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    padding: 20px 20px 20px 20px;
+    border-radius: 15px;
+    /* background-color: black; */
+}
+
+.subinpcom{
+    background-color: blue;
+    color: white;
+    padding: 5px5px5px5px;
+}
+
+.inpdivcp {
+  display: flex;
+  align-items: stretch; /* Ensure both child divs stretch to match height */
+}
+
+.inpdivcp > div {
+  flex: 1; /* Each child div takes up equal space */
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+}
+
+.inpdivcp img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+}
+
+.form-container {
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.outside{
+    margin-top: 0;
+    background-color: #EAD8C0;
+    /* width: 100vw; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.right{
+    /* background-color: aqua; */
+    height: 65%;
+    display: flex;
+    justify-content: center;
+
+}

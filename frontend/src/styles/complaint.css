@@ -1,0 +1,63 @@
+/* .carddiv{
+    width: 18rem;
+    margin-top: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carddiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Ensure the card takes up the full height of the viewport */
+  background: linear-gradient(to bottom right, #ffffff, #f2f2f2); /* Use your preferred gradient colors */
+   transition: all 0.3s ease;
+}
+
+.card {
+  width: 400px; /* Set your desired width */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.card-body {
+  text-align: center; /* Center align the content inside the card */
+}
+
+.card-img-top {
+  width: 100%; /* Ensure the image takes up the full width of the card */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+
+
+.card {
+  width: 400px; /* Set your desired width */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  transition: box-shadow 0.3s ease; /* Add transition effect for box-shadow */
+}
+
+.card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Change box-shadow on hover for emphasis */
+}
+
+.card-body {
+  text-align: center; /* Center align the content inside the card */
+}
+
+.card-img-top {
+  width: 100%; /* Ensure the image takes up the full width of the card */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}

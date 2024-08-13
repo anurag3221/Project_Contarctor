@@ -1,0 +1,82 @@
+/* .signdiv{
+    border: solid black 2px;
+    height: 20vh;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+}
+.btnsub{
+    margin-left: 17vw;
+    
+
+} */
+
+/* Styles for sign-in container */
+
+.body{
+    display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #4db6ac, #2196f3);
+}
+.signdiv {
+    
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    padding: 10px;
+    width: 40vw;
+     height: 60vh; 
+    margin: 20vh auto; /* Center the sign-in container vertically and horizontally */
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+/* Styles for sign-in button */
+.btnsub {
+    margin-left: calc(50% - 40px); /* Center the button horizontally */
+    background-color: #1bd81b; /* Blue background */
+    color: #ffffff; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btnsub:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+.form-heading{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    margin-top: 18px;
+     background: linear-gradient(to bottom, #4f8ee6, #37474f); /* Gradient from light to dark blue */
+  color: white; /* Text color */
+  font-weight: bold; /* Bold font */
+  border-radius: 8px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sign-up{
+    margin-left: 8px;
+}
+
+.form-start{
+    margin: 28px;
+    /* margin-left: 18px; */
+}
+
+.submit{
+    margin-top: 47px;
+}
+
+.dont{
+    color: red;
+}
